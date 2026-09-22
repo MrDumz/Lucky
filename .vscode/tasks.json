@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Temporary Lucky pattern audit",
+			"type": "shell",
+			"command": "C:\\Program Files\\WindowsApps\\Microsoft.PowerShell_7.6.6.0_x64__8wekyb3d8bbwe\\pwsh.exe",
+			"args": [
+				"-NoProfile",
+				"-NonInteractive",
+				"-ExecutionPolicy",
+				"Bypass",
+				"-File",
+				"C:\\Users\\samuel.dumlao\\AppData\\Local\\Temp\\lucky_pattern_analysis.ps1",
+				"-WorkbookPath",
+				"C:\\Users\\samuel.dumlao\\OneDrive - Advantest\\Softwares\\github-copilot\\Lucky\\6-58_lotto.xlsx",
+				"-OutputPath",
+				"C:\\Users\\samuel.dumlao\\AppData\\Local\\Temp\\lucky_pattern_analysis.json"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		}
+	]
+}
